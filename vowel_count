@@ -1,0 +1,16 @@
+function vowel_count(s) {
+    var string = s.toLowerCase();
+    var chars = string.split('');
+    count = 0
+    for ( var i = 0; i < string.length; i++ ){ 
+         var letter = string[i];
+         console.log(letter);
+        if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || string == 'u' || string == 'y'){
+            count = count + 1
+            
+        }
+    }
+    return count
+}
+
+console.log(vowel_count("I This is words"))
